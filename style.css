@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0;
+    background-color: rgb(95, 49, 126);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.pw-container {
+    background-color: rgb(44, 9, 68) ;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pw-header {
+    padding: 1rem;
+}
+
+.pw {
+    background-color: rgb(95, 49, 126);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.pw button {
+    background-color: rgb(225, 218, 253);
+    border: none;
+    color: rgb(55, 1, 110);
+    padding: 0.6rem 0.6rem;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    font-weight: bold;
+    transform: translate(0, 30%);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    opacity: 0;
+}
+
+.pw:hover button {
+    opacity: 1;
+    transform: translate(0, 50%);
+}
+
+.pw-body {
+    padding: 1rem;
+}
+
+.pw-body input {
+    margin-top: .5rem;
+}
+
+#len {
+    margin-top: 0;
+}
+
+.form-control {
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+}
+
+.generate {
+  background-color: whitesmoke;
+  color: rgb(73, 28, 104);
+  display: block;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
